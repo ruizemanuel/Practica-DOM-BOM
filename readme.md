@@ -7,6 +7,8 @@ Los métodos que se debe poder utilizar  son:
 mostrarGeneracion: este método debe mostrar un mensaje indicando a qué generación pertenece la persona creada y cual es el rasgo característico de esta generación.
 Para realizar este método tener en cuenta la siguiente tabla de generaciones:
 
+![tabla](https://user-images.githubusercontent.com/31832843/200144317-ab70d34e-6cb2-41b3-ad01-ad22a742ea1a.png)
+
 esMayorDeEdad: indica si es mayor de edad, devuelve un mensaje indicando que la persona es mayor de edad.
 mostrarDatos: devuelve toda la información del objeto.
 Luego crea la interfaz necesaria para que el usuario pueda crear un objeto persona, permitiendo ingresar las propiedades mediante un formulario, también agregar los botones “mostrar generación”, es “mayor de edad” e indicar en un alert el resultado de la función correspondiente.
@@ -14,6 +16,8 @@ Luego crea la interfaz necesaria para que el usuario pueda crear un objeto perso
 3 - Crea una web con bootstrap y js, que contenga un botón input donde se pueda cargar una tarea y un botón que al ser presionado agregue dicha tarea a una lista, cada elemento ingresado en la lista debe poder ser eliminado con un botón creado para ese fin. 
 
 4- Crear una web con un reloj que muestre la siguiente información:
+
+![reloj](https://user-images.githubusercontent.com/31832843/200144331-0c32b30c-39b4-4223-93c3-ef4db7d8defa.png)
 
 5- Realizar una web con un cronómetro, que tenga las opciones de iniciar, reset (volver el cronómetro a 0) y pausar.
 
