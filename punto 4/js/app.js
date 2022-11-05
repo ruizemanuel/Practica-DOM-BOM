@@ -6,7 +6,7 @@ function reloj() {
     let diaSemana = date.getDay()
     ///////////////////Agregar dia de la semana y numero del mes/////////////////////////////
 
-    document.querySelector("#diaSemana").innerHTML = dia + " "
+    document.querySelector("#diaSemana").innerHTML = dia
     switch (diaSemana) {
         case 1:
             diaSemana = "Lunes"
@@ -31,7 +31,7 @@ function reloj() {
             break;
 
     }
-    document.querySelector("#dia").innerHTML = diaSemana + " "
+    document.querySelector("#dia").innerHTML = diaSemana
 
 
     /////////////////////////////////////////////////////////////////////////////////////////
