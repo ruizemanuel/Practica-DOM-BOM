@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="description" content="Práctico-DOM-BOM" />
+  <meta name="keywords" content="DOM, BOM, js, javascript" />
+  <meta name="author" content="Emanuel Ruiz" />
+  <link rel="stylesheet" href="css/bootstrap.min.css" />
+  <link rel="stylesheet" href="css/styles.css">
+  <title>Práctico DOM BOM</title>
+</head>
+
+<body>
+  <header></header>
+  <main>
+    <section class="container-fluid text-center py-4 mt-5 text-light">
+
+      <div class="d-flex flex-column align-items-center">
+
+    
+          <div class="display-4" id="contador">
+
+          </div>
+         
+       
+        <div class="d-flex mt-3">
+          <button class="btn btn-primary me-2" onclick="iniciar()">Iniciar</button>
+          <button class="btn btn-primary me-2" onclick="reset()" >Reset</button>
+          <button class="btn btn-primary" onclick="pausar()">Pausar</button>
+        </div>
+          <input type="number" class="form-control mt-5 ancho" id="valor"  placeholder="Ingrese el valor del contador">
+          <button class="btn btn-primary mt-3" onclick="setear()">Setear</button>
+
+
+
+      </div>
+
+
+
+    </section>
+
+  </main>
+  <footer></footer>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+
+</html>
