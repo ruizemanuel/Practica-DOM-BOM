@@ -72,5 +72,5 @@ function agregarCero(valor) {
     return valor
 }
 
-window.setInterval(reloj, 500)
+window.setInterval(reloj, 1000)
 
