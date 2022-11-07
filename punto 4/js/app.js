@@ -26,7 +26,7 @@ function reloj() {
         case 6:
             diaSemana = "Sabado"
             break;
-        case 7:
+        case 0:
             diaSemana = "Domingo"
             break;
 
